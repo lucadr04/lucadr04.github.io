@@ -87,12 +87,12 @@ export default {
 }
 
 /* Simplified fade transition styles */
-:global.fade-enter-active,
-:global.fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 0.5s ease;
 }
-:global.fade-enter-from,
-:global.fade-leave-to {
+.fade-enter-from,
+.fade-leave-to {
   opacity: 0;
 }
 </style>
