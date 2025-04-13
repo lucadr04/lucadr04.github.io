@@ -2,22 +2,22 @@
   <footer>
     <div 
         class="contact" 
-        @mouseover="mail = 'ldrmain@proton.me'" 
+        @mouseover="mail = 'luca.dariz@proton.me'" 
         @mouseleave="mail = 'Mail'"
         @click="copyMail()">
       {{ mail }}
     </div>
     <div 
         class="contact" 
-        @mouseover="git = 'ldrmain'" 
+        @mouseover="git = 'lucadr04'" 
         @mouseleave="git = 'Github'">
-      <a href="https://github.com/" target="_blank">{{ git }}</a>
+      <a href="https://github.com/lucadr04" target="_blank">{{ git }}</a>
     </div>
     <div 
         class="contact" 
-        @mouseover="linkedin = 'W.I.P.'" 
+        @mouseover="linkedin = 'lucadariz04'" 
         @mouseleave="linkedin = 'LinkedIN'">
-      {{ linkedin }}
+        <a href="https://www.linkedin.com/in/lucadariz04/" target="_blank">{{ linkedin }}</a>
     </div>
     <div 
         class="contact" 

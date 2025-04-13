@@ -9,7 +9,7 @@
 <style>
 nav {
   display: inline;
-  padding: 3rem;
+  padding: 3vw;
   font-size: 1rem;
   font-weight: bold;
   letter-spacing: 1px;
@@ -17,7 +17,7 @@ nav {
 }
 .navdiv {
   display: inline;
-  padding: 2vw 5vw;
+  padding: 1vw 4vw;
 }
 .navdiv:hover {
   background-color: var(--lightc);
@@ -28,5 +28,8 @@ nav {
   background-color: var(--fontlc);
   font-style: italic;
 }
-
+.router-link-exact-active {
+  font-style: italic;
+  text-decoration: underline;
+}
 </style>

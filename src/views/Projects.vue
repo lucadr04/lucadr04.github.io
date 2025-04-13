@@ -62,7 +62,7 @@ export default {
 <style>
 .projects {
   display: grid;
-  grid-template-columns: 6% 54% 6%;
+  grid-template-columns: 6% 60% 6%;
   margin: 8vh 5vw;
   font-size: 1rem;
   height: 70vh;
@@ -73,17 +73,35 @@ export default {
   text-align: center;
 }
 .project-image {
-  width: 200px;
-  height: 200px;
+  width: 25vw;
+  height: 25vh;
   object-fit: scale-down;
-  margin-top: 1rem;
+  margin-top: 1vw;
 }
 .nav-button {
   padding: 2vw 1vw;
   text-align: center;
-  font-size: 6vh;
+  font-size: 2rem;
   user-select: none;
   cursor: pointer;
+}
+.nav-button:hover {
+  background-color: var(--lightc);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.nav-button:active {
+  background-color: var(--fontlc);
+  font-style: italic;
+}
+@media (max-width: 600px) {
+  .projects {
+    grid-template-columns: 6% 80% 6%;
+  }
+  .project-image {
+    width: 30vw;
+    height: 30vh;
+  }
 }
 
 /* Simplified fade transition styles */

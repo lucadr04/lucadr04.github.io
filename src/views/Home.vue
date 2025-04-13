@@ -13,15 +13,15 @@
 }
 .inline-h2 {
   display: inline;
-  margin: 0;  /* Adjust margins as necessary */
+  margin: 0; 
 }
 @media (max-width: 600px) {
   .home {
-    margin-top: 8vh;
+    margin-top: 15vh;
   }
   .inline-h2 {
     display: inline-block;
-    margin-right: 10px;  /* Space between the h2s when inline */
+    margin-right: 2vh; 
   }
 }
 .highlight{
