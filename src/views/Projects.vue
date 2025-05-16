@@ -18,19 +18,19 @@ export default {
     return {
       projects: [
         { 
-          title: "Project 1", 
-          description: "Description of project 1",
-          image: "https://placehold.co/600x400?font=roboto"
+          title: "Portfolio", 
+          description: "Made with Vue.js",
+          image: "/Portfolio.png"
         },
         { 
-          title: "Project 2", 
-          description: "Description of project 2",
-          image: "https://placehold.co/200x100?font=roboto"
+          title: "Text Game", 
+          description: "Made with Vue.js",
+          image: "/Start.png"
         },
         { 
-          title: "Project 3", 
-          description: "Description of project 3",
-          image: "https://placehold.co/200x100?font=roboto"
+          title: "Trentus", 
+          description: "Made with Node.js and Express, using MongoDB",
+          image: "/Trentus.png"
         },
       ],
       currentIndex: 0,
@@ -73,7 +73,7 @@ export default {
   text-align: center;
 }
 .project-image {
-  width: 25vw;
+  width: 40vw;
   height: 25vh;
   object-fit: scale-down;
   margin-top: 1vw;
@@ -99,7 +99,8 @@ export default {
     grid-template-columns: 6% 80% 6%;
   }
   .project-image {
-    width: 30vw;
+    margin-top: 0vw;
+    width: 50vw;
     height: 30vh;
   }
 }

@@ -38,7 +38,6 @@
   position: relative;
   height: 70vh;
 }
-
 .scroll {
   font-size: 1rem;
   height: 100%;
@@ -62,7 +61,13 @@ hr {
   width: 70%;           
   margin: 1vh auto;  
 }
-
+@media (max-width: 600px) {
+  .scroll-container {
+  margin: 10vh 16vw;
+  position: relative;
+  height: 70vh;
+}
+}
 .topsh,
 .bottomsh {
   position: absolute;
