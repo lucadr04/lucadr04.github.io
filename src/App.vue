@@ -22,7 +22,7 @@ export default {
     Footer
   },
   mounted() {
-    document.title = 'First portfolio';
+    document.title = 'Luca\'s portfolio';
     this.colors();
     const cursor = document.querySelector(".cursor");
 

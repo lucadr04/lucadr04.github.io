@@ -2,31 +2,40 @@
   <div class="scroll-container">
     <div class="topsh"></div>
     <div class="scroll">
-      <br>
-      <br>
+      <div>
+        <h1 class="stone highlight">Full-stack developer</h1>
+        <p>A3 Belluno, July 2025 - September 2025</p>
+        <h3></h3>
+      </div>
       <div>
         <h1 class="stone highlight">IT Helper</h1>
-        <p>SIT Belluno, July 2022</p>
-        <h4></h4>
+        <p>SIT Belluno, July 2022 - August 2022</p>
+        <h3></h3>
       </div>
       <div>
         <h1 class="stone highlight">IT Internship</h1>
         <p>SIT Belluno, May 2022</p>
-        <h4></h4>
+        <h3></h3>
       </div>
-                <hr>
+        <hr>
       <div>
         <h1 class="stone highlight">CS Tutoring</h1>
         <p>Nov 2022 - Jan 2023</p>
-        <h4></h4>
+        <h3></h3>
       </div>
-                <hr>
+        <hr>
+      <div>
+        <h1 class="stone highlight">Bachelor degree</h1><br>
+        <h3 class="stone highlight">Computer Science</h3>
+        <p>Trento, 2026</p>
+        <h3></h3>
+      </div>
+        <hr>
       <div>
         <h1 class="stone highlight">English C1</h1>
         <p>Cambridge, Dec 2022</p>
-        <h4></h4>
+        <h3></h3>
       </div>
-      <br>
     </div>
     <div class="bottomsh"></div>
   </div>
@@ -39,19 +48,20 @@
   height: 70vh;
 }
 .scroll {
-  font-size: 1rem;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  padding: 10vh 0;
   height: 100%;
   overflow: auto;
   text-overflow: ellipsis;
-  white-space: nowrap;
   scrollbar-width: none;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 95%);
 }
 .stone, p {
   margin: 0;
 }
-h4 {
-  margin-top: 1rem;
+h3 {
+  margin-top: 2rem;
   margin-bottom: 3rem;
 }
 hr {
@@ -63,7 +73,7 @@ hr {
 }
 @media (max-width: 600px) {
   .scroll-container {
-  margin: 10vh 16vw;
+  margin: 10vh 5vw;
   position: relative;
   height: 70vh;
 }
